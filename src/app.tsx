@@ -2,12 +2,11 @@ import React from 'react';
 import GlobalStyle from './styles/globalStyles';
 
 const App = () => {
+	console.log("test");
 	return (
 		<>
 			<GlobalStyle />
-			<div>
 				<p>hello</p>
-			</div>
 		</>
 	);
 };
